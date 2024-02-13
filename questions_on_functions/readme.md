@@ -152,16 +152,17 @@
       ```
 
 15. **Using "bind" to Bind "this"**:
+
     - Creates a new function that, when called, has its `this` keyword set to the provided value.
+
       ```javascript
       const obj = { name: "John" };
-      function sayName
+      function sayName() {
+        console.log(this.name);
+      }
+      const boundSayName = sayName.bind(obj);
+      boundSayName(); // John
       ```
-
-() { console.log(this.name); }
-const boundSayName = sayName.bind(obj);
-boundSayName(); // John
-```
 
 16. **Function Hoisting**:
 
