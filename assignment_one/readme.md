@@ -50,14 +50,14 @@
    console.log(isPalindrome("madam")); // Returns true
    ```
 
-   5. **Declare Age Variable**:
+5. **Declare Age Variable**:
 
    ```javascript
    const age = 30;
    console.log(`I am ${age} years old.`);
    ```
 
-5. **Print Numbers 1 to 10**:
+6. **Print Numbers 1 to 10**:
 
    ```javascript
    for (let i = 1; i <= 10; i++) {
@@ -65,21 +65,21 @@
    }
    ```
 
-6. **Check Number Sign**:
+7. **Check Number Sign**:
 
    ```javascript
    const num = -5;
    console.log(num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero");
    ```
 
-7. **Convert to Lowercase**:
+8. **Convert to Lowercase**:
 
    ```javascript
    const str = "HELLO";
    console.log(str.toLowerCase());
    ```
 
-8. **Sum of Array Elements**:
+9. **Sum of Array Elements**:
 
    ```javascript
    const numbers = [1, 2, 3, 4, 5];
@@ -87,18 +87,18 @@
    console.log(sum);
    ```
 
-9. **Check Leap Year**:
+10. **Check Leap Year**:
 
-   ```javascript
-   const year = 2020;
-   console.log(
-     (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0
-       ? "Leap Year"
-       : "Not a Leap Year"
-   );
-   ```
+    ```javascript
+    const year = 2020;
+    console.log(
+      (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0
+        ? "Leap Year"
+        : "Not a Leap Year"
+    );
+    ```
 
-10. **Print Sum of Two Numbers**:
+11. **Print Sum of Two Numbers**:
 
     ```javascript
     const num1 = 5,
@@ -106,7 +106,7 @@
     console.log(num1 + num2);
     ```
 
-11. **Message Based on Day of the Week**:
+12. **Message Based on Day of the Week**:
 
     ```javascript
     const day = "Monday";
@@ -120,7 +120,7 @@
     }
     ```
 
-12. **Area of Rectangle**:
+13. **Area of Rectangle**:
 
     ```javascript
     const length = 5,
@@ -128,14 +128,14 @@
     console.log(length * width); // Area
     ```
 
-13. **Convert String to Number**:
+14. **Convert String to Number**:
 
     ```javascript
     const str = "123.45";
     console.log(parseFloat(str));
     ```
 
-14. **Check Name in Array**:
+15. **Check Name in Array**:
 
     ```javascript
     const names = ["Alice", "Bob", "Charlie"];
@@ -143,7 +143,7 @@
     console.log(names.includes(name) ? "Exists" : "Does not exist");
     ```
 
-15. **Check Prime Number**:
+16. **Check Prime Number**:
 
     ```javascript
     const num = 7;
@@ -157,14 +157,14 @@
     console.log(isPrime ? "Prime" : "Not prime");
     ```
 
-16. **Boolean Check and Print**:
+17. **Boolean Check and Print**:
 
     ```javascript
     const isHarmattan = false;
     if (!isHarmattan) console.log("It's raining!");
     ```
 
-17. **Print Even Numbers 1 to 20**:
+18. **Print Even Numbers 1 to 20**:
 
     ```javascript
     for (let i = 1; i <= 20; i++) {
@@ -172,35 +172,35 @@
     }
     ```
 
-18. **Factorial of a Number**:
+19. **Factorial of a Number**:
 
     ```javascript
     const factorial = (n) => (n <= 1 ? 1 : n * factorial(n - 1));
     console.log(factorial(5));
     ```
 
-19. **Convert Number to String**:
+20. **Convert Number to String**:
 
     ```javascript
     const num = 123;
     console.log(num.toString());
     ```
 
-20. **Print Length of Colors Array**:
+21. **Print Length of Colors Array**:
 
     ```javascript
     const colors = ["red", "green", "blue"];
     console.log(colors.length);
     ```
 
-21. **Check Valid Email**:
+22. **Check Valid Email**:
 
     ```javascript
     const email = "test@example.com";
     console.log(/^\S+@\S+\.\S+$/.test(email) ? "Valid" : "Invalid");
     ```
 
-22. **Print Largest Number**:
+23. **Print Largest Number**:
 
     ```javascript
     const num1 = 10,
@@ -209,7 +209,7 @@
     console.log(Math.max(num1, num2, num3));
     ```
 
-23. **Check Number Between Two Numbers**:
+24. **Check Number Between Two Numbers**:
 
     ```javascript
     const num = 15,
@@ -218,26 +218,26 @@
     console.log(num > lower && num < upper);
     ```
 
-24. **Convert Celsius to Fahrenheit**:
+25. **Convert Celsius to Fahrenheit**:
 
     ```javascript
     const celsius = 30;
     console.log((celsius * 9) / 5 + 32); // Fahrenheit
     ```
 
-25. **Convert String "10" to Number**:
+26. **Convert String "10" to Number**:
 
     ```javascript
     console.log(parseInt("10"));
     ```
 
-26. **Declare Age Without Value**:
+27. **Declare Age Without Value**:
 
     ```javascript
     let age;
     ```
 
-27. **Print Numbers 1 to 5**:
+28. **Print Numbers 1 to 5**:
 
     ```javascript
     for (let i = 1; i <= 5; i++) {
@@ -245,7 +245,7 @@
     }
     ```
 
-28. **Combine && and ||**:
+29. **Combine && and ||**:
 
     ```javascript
     const a = 5,
@@ -254,7 +254,7 @@
     if (a < b && (c > b || a < c)) console.log("True");
     ```
 
-29. **Switch Statement for Day**:
+30. **Switch Statement for Day**:
 
     ```javascript
     const day = "Tuesday";
@@ -271,20 +271,20 @@
     }
     ```
 
-30. **Positive or Negative Number**:
+31. **Positive or Negative Number**:
 
     ```javascript
     const num = -5;
     console.log(num > 0 ? "Positive" : "Negative");
     ```
 
-31. **Convert Number 5 to String**:
+32. **Convert Number 5 to String**:
 
     ```javascript
     console.log(5.toString());
     ```
 
-32. **Compare Two Numbers**:
+33. **Compare Two Numbers**:
 
     ```javascript
     const num1 = 10,
@@ -292,7 +292,7 @@
     console.log(num1 > num2); // false
     ```
 
-33. **Print Even Numbers 1 to 10**:
+34. **Print Even Numbers 1 to 10**:
 
     ```javascript
     for (let i = 1; i <= 10; i++) {
@@ -300,7 +300,7 @@
     }
     ```
 
-34. **Combine && and !**:
+35. **Combine && and !**:
 
     ```javascript
     const a = true,
@@ -308,7 +308,7 @@
     if (a && !b) console.log("True");
     ```
 
-35. **Switch Statement for Month**:
+36. **Switch Statement for Month**:
 
     ```javascript
     const month = "February";
@@ -325,14 +325,14 @@
     }
     ```
 
-36. **Check Divisibility by 3**:
+37. **Check Divisibility by 3**:
 
     ```javascript
     const num = 9;
     console.log(num % 3 === 0 ? "Divisible by 3" : "Not divisible by 3");
     ```
 
-37. **Print Numbers 10 to 1**:
+38. **Print Numbers 10 to 1**:
 
     ```javascript
     for (let i = 10; i >= 1; i--) {
@@ -340,7 +340,7 @@
     }
     ```
 
-38. **Combine || and !**:
+39. **Combine || and !**:
 
     ```javascript
     const a = false,
@@ -349,7 +349,7 @@
     else console.log("False");
     ```
 
-39. **Switch Statement for Season**:
+40. **Switch Statement for Season**:
     ```javascript
     const season = "Winter";
     switch (season) {
